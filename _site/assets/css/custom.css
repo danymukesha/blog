@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #2c3e50; /* Dark navy for headers and accents */
+  --accent-color: #3498db; /* Blue for links and buttons */
+  --bg-color: #f5f6f5; /* Light background for readability */
+  --text-color: #333333; /* Dark text for contrast */
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.post-title a {
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+.post-title a:hover {
+  color: var(--accent-color);
+}
+
+.btn, .nav-link {
+  background-color: var(--accent-color);
+  color: white !important;
+  border-radius: 5px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover, .nav-link:hover {
+  background-color: #2980b9;
+}
+
+/* Improve readability for post content */
+.post-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add subtle shadow to cards */
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
