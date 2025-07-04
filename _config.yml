@@ -1,0 +1,16 @@
+# site settings
+title: Blog
+description: A place to share my thoughts and writings.
+baseurl: "" # will leave this empty for root, or set to "/my-blog-repo" if hosted in a subdirectory
+url: "https://danymukesha.github.io/blog"
+theme: minima
+show_drafts: false
+
+# build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# permalinks
+permalink: /:year/:month/:day/:title/
