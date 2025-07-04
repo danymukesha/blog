@@ -14,3 +14,6 @@ plugins:
 
 # permalinks
 permalink: /:year/:month/:day/:title/
+
+sass:
+  quiet_deps: true
